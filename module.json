@@ -2,7 +2,7 @@
     "id": "pf2e-kineticists-companion",
     "title": "PF2e Kineticist's Companion",
     "description": "Improve automation for Kineticists in Pathfinder 2e.",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "authors": [
         {
             "name": "JDCalvert",
@@ -46,7 +46,7 @@
     },
     "url": "https://github.com/JDCalvert/pf2e-kineticists-companion",
     "manifest": "https://raw.githubusercontent.com/ZipperSolo/pf2e-kineticists-companion/refs/heads/main/module.json",
-    "download": "https://github.com/ZipperSolo/pf2e-kineticists-companion/archive/refs/heads/main.zip",
+    "download": "https://github.com/ZipperSolo/pf2e-kineticists-companion/releases/download/2.1.2/pf2e-kineticists-companion.zip",
     "readme": "https://github.com/JDCalvert/pf2e-kineticists-companion",
     "bugs": "https://github.com/JDCalvert/pf2e-kineticists-companion/issues",
     "changelog": "https://github.com/JDCalvert/pf2e-kineticists-companion/blob/main/CHANGELOG.md",
