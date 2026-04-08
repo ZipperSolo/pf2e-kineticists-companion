@@ -35,8 +35,6 @@ export class Chat {
     static async rollInlineDamage(item, baseFormula, additionalFlags = {}, additionalText = "", additionalRollOptions = []) {
         const html = (await item.getChatData()).description.value;
         const results = $($.parseHTML(html)).find(".inline-roll");
-        console.log("pf2e-kineticists-companion | Looking for baseFormula:", baseFormula);
-        console.log("pf2e-kineticists-companion | Available formulas:", Array.from(results).map(r => ({ baseFormula: r.dataset.baseFormula, formula: r.dataset.formula, allData: { ...r.dataset } })));
         const damageElement = Array.from(results).find(result => result.dataset.baseFormula === baseFormula);
         if (!damageElement) {
             console.warn("pf2e-kineticists-companion | Could not find inline damage roll matching formula:", baseFormula);
